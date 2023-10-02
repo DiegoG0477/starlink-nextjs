@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import { Loader } from '@googlemaps/js-api-loader';
+import google_maps_apiKey from "../../public/PATH_VARIABLES"
 
 export default function AvailabilityBox() {
   const [isLoading, setIsLoading] = useState(false);
@@ -31,7 +32,7 @@ export default function AvailabilityBox() {
 
   const showMap = () => {
     const loader = new Loader({
-      apiKey: "AIzaSyDbZg6PIq74MzjdqU7-ArDUyL-15nLB_68",
+      apiKey: nextConfig.google_maps_apiKey,
     });
   
     loader
