@@ -10,6 +10,20 @@ body {
   background-color: black;
 }
 
+.white-button{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding-left: 0.75vw;
+  padding-right: 0.75vw;
+  height: 5vh;
+  margin-left: 1.7vw;
+  margin-bottom: 2vh;
+}
+
 .landpage {
   background-image: url(/assets/landing-page-main.webp);
   background-size: contain;
@@ -462,12 +476,7 @@ footer .policy-text {
   z-index: 1;
   left: 82vw;
   padding: 2vw;
-  visibility: collapse;
-}
-
-.side-bar {
-  /* transition: background-color 0.5s ease; */
-  /* transition: right 0.5s ease-in-out; */
+  /* visibility: collapse; */
 }
 
 .side-links {
@@ -554,10 +563,8 @@ footer .policy-text {
 }
 
 .location-invalid-text {
-  color: red;
   font-size: 1.1rem;
   margin-top: 0.5rem;
   text-align: center;
   font-weight: bold;
-  visibility: collapse;
 }

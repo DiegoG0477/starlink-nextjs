@@ -1,6 +1,6 @@
 export default function SideMenu(){
     return(
-        <div className="side-bar" id="sideMenu">
+        <div className="side-bar" style={{position:"absolute"}}>
             <a className="close-button" id="closeMenuBtn">
                 {/* <img src="./assets/Close_Menu.svg" alt="" /> */}
             </a>

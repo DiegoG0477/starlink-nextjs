@@ -1,3 +1,5 @@
+'use client'
+
 import Header from "./components/header";
 import MainImageSection from "./components/mainImageSection";
 import LeftFeature from "./components/leftFeature";

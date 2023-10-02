@@ -9,6 +9,7 @@ export default function StoreContainer() {
     fetch("https://fakestoreapi.com/products?limit=4")
       .then((res) => res.json())
       .then((json) => {
+        console.log(json);
         setArticles(json);
         console.log(articles);
         })
@@ -30,6 +31,7 @@ export default function StoreContainer() {
           image={article.image}
           title={article.title}
           price={article.price}
+          id={article.id}
         />
       );
     })}

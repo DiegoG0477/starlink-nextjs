@@ -6,7 +6,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}
+      <script src="https://unpkg.com/@googlemaps/js-api-loader@1.x/dist/index.min.js"></script></body>
     </html>
   )
 }
