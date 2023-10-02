@@ -1,4 +1,4 @@
-import menuHamburguer from "../public/assets/Menu_Hamburger.svg";
+import menuHamburguer from "../../public/assets/Menu_Hamburger.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +8,6 @@ export default function Navbar() {
       <div class="nav-menu">
         <div class="nav-bar">
           <p class="logo">STARLINK</p>
-
           <div class="nav-links">
             {/* <a href="#" class="underlined-link">
               RESIDENCIAL
